@@ -1,0 +1,7 @@
+Phase 0 baseline (all-MiniLM-L6-v2, no fine-tuning):
+  Query: "antibiotic safe for UTI during pregnancy"
+  Nitrofurantoin rank: 2/10 (score: 0.649, delta from rank-1: 0.007)
+
+the faiss-gpu-cu12 swap to faiss-cpu should be recorded in 
+your paper's implementation notes section as a Blackwell-specific adaptation. 
+Reviewers using older GPUs won't hit this

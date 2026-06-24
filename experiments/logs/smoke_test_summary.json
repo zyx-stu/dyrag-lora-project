@@ -1,0 +1,8 @@
+{
+  "phase": "smoke_test",
+  "total_steps": 20,
+  "total_time_s": 26.6,
+  "final_loss": 0.0017,
+  "log_path": "experiments/logs/smoke_test_loss.jsonl",
+  "checkpoint_dir": "experiments/checkpoints/smoke_test"
+}
