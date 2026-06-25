@@ -5,3 +5,13 @@ Phase 0 baseline (all-MiniLM-L6-v2, no fine-tuning):
 the faiss-gpu-cu12 swap to faiss-cpu should be recorded in 
 your paper's implementation notes section as a Blackwell-specific adaptation. 
 Reviewers using older GPUs won't hit this
+
+Gate 1 Verdict: PASSED
+Date: Week 3 completion
+Result: 19/20 examples (95%) — threshold was 15/20 (75%)
+Mean delta: +0.3606
+Delta range: [-0.397, +1.177]
+Baseline loss distribution: mean=2.095
+  Easy (<1.5): 1  Medium (1.5-2.5): 15  Hard (>2.5): 3
+Label distribution: 88.9% pos / 5.6% neg / 5.6% neu
+Corpus: 2000 MedQA training questions (proxy — PubMed in Week 4)
