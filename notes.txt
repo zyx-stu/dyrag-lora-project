@@ -15,3 +15,12 @@ Baseline loss distribution: mean=2.095
   Easy (<1.5): 1  Medium (1.5-2.5): 15  Hard (>2.5): 3
 Label distribution: 88.9% pos / 5.6% neg / 5.6% neu
 Corpus: 2000 MedQA training questions (proxy — PubMed in Week 4)
+
+Phase 0 baseline — officially recorded for Table 2:
+  Phase 0 Retrieval Baseline (all-MiniLM-L6-v2, no fine-tuning)
+  Corpus:              100K PubMed abstracts
+  Answer-presence @1:  0.000 (0/50)
+  Answer-presence @3:  0.060 (3/50)
+  Mean cosine score:   0.5699
+  Score range:         [0.465, 0.716]
+  Build time:          1.4 minutes (1767 docs/sec)

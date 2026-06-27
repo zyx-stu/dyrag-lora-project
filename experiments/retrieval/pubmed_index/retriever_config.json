@@ -1,0 +1,9 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_k": 3,
+  "batch_size": 512,
+  "normalize": true,
+  "device": "cuda",
+  "dim": 384,
+  "n_docs": 100000
+}
